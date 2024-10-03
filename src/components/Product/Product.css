@@ -1,0 +1,86 @@
+.product {
+    width: 300px;
+    height: 508px;
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    position: relative;
+}
+
+.product img {
+    width: 286px;
+    height: 286px;
+    margin: 7px;
+    border-radius: 8px;
+}
+
+.product-info {
+    /* color: red; */
+    margin-left: 14px;
+}
+
+.product .product-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    /* width: 267px; */
+    /* font-family: Lato; */
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.032px;
+}
+
+.product-price {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.026px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+
+.product-manufacturer {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.048px;
+    margin-top: 0;
+    margin-bottom: 11px;
+    color: #a2c3d8;
+}
+
+.product-rating {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.048px;
+    margin-top: 0;
+    color: rgb(221, 195, 133);
+}
+
+.btn-cart {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.188px;
+    color: #0E161A;
+
+
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #95A0A7;
+    background: #FFE0B3;
+}
+
+.btn-cart {
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-cart:hover {
+    background-color: lightsalmon;
+}
